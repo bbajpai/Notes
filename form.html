@@ -1,0 +1,42 @@
+<html>
+	<head>
+	<meta name="description" content ="Simple HTML form">
+	<meta name="author" content="abc">
+	<meta name="keywords" content="HTML,Forms">
+	</head>
+	<body>
+	<center>
+		<form method="get">
+			First Name <input type="text" name="firstName"></input> <br><br>
+			Last Name <input type="text" name="lastName"></input><br><br>
+			Password <input type="Password" name="pwd"></input> <br><br>
+			Profile <textarea rows="4" cols="15"></textarea> <br><br>
+			Gender <br>
+			<input type="radio" name="gender" id="male" value="Male">Male</input>
+			<input type="radio" name="gender" id="female" value="Female">Female</input> <br><br>
+			Preferences:
+			<input type="checkbox" name="pref" value ="Gurgaon"id = "pref1">Gurgaon</input>
+			<input type="checkbox" name="pref" value ="Delhi"id = "pref2">Delhi</input>
+			<input type="checkbox" name="pref" value ="Noida"id = "pref3">Noida</input>
+			<input type="checkbox" name="pref" value ="Chandigarh"id = "pref4">Chandigarh</input> <br><br>
+
+			Occupation :
+			<select id="occupation" name="occupation">
+				<optgroup label="Technical">
+					<option label="Developer" value="dev">Developer</option>
+					<option label="Designer" value="design">Designer</option>
+					<option label="Web Developer" value="web">Web developer</option>
+				</optgroup>
+				<optgroup label="Non-Technical">
+					<option label="Manager" value="mrg">Manager</option>
+					<option label="Consultant" value="con">Consultant</option>
+				</optgroup>
+				
+			</select>
+			<br><br>
+			Search : <input type="text" name="query"></input><br><br>
+			<input type="submit" value="Send"></input>
+		</form>
+		</center>
+	</body>
+</html>

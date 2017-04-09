@@ -1,0 +1,56 @@
+Multimedia on the web is sound, music, videos, movies, and animations.
+
+What is Multimedia?
+Multimedia comes in many different formats. It can be almost anything you can hear or see.
+
+Examples: Images, music, sound, videos, records, films, animations, and more
+Video supprt :
+Only MP4, WebM, and Ogg video are supported by the HTML5 standard.
+
+Audio Support : 
+Only MP3, WAV, and Ogg audio are supported by the HTML5 standard.
+
+Video Tag:
+
+The controls attribute adds video controls, like play, pause, and volume.
+
+It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.
+
+The <source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
+
+The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element.
+HTML <video> Autoplay
+To start a video automatically use the autoplay attribute:
+
+Example
+<video width="320" height="240" autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+
+
+-Audio Tag
+Before HTML5, audio files could only be played in a browser with a plug-in (like flash).
+
+The HTML5 <audio> element specifies a standard way to embed audio in a web page.
+If we don't have CONTROL then player becomes transparent
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+HTML Audio - Media Types
+File Format	Media Type
+MP3	audio/mpeg
+Ogg	audio/ogg
+Wav	audio/wav
+
+-Embedding YouTube Video :
+Use the youtube site to find the video you want.
+Click the 'Share' button below the video.
+Click the 'Embed' button next to the link they show you.
+Copy the iframe code given and paste it into the html of your web page.
+
+-Embedding Maps in Website:

@@ -1,0 +1,75 @@
+Bootstarp Tables:
+-Basic table
+-Striped Table : .table-striped 
+-Bordered Table : .table-bordered
+-Hover Rows
+The .table-hover class adds a hover effect (grey background color) on table rows:
+-Condensed Table
+The .table-condensed class makes a table more compact by cutting cell padding in half:
+-Contextual Classes
+Contextual classes can be used to color table rows (<tr>) or table cells (<td>):
+<tr class="success">
+        <td>Success</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="danger">
+        <td>Danger</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="info">
+        <td>Info</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr class="warning">
+        <td>Warning</td>
+        <td>Refs</td>
+        <td>bo@example.com</td>
+      </tr>
+      <tr class="active">
+        <td>Active</td>
+        <td>Activeson</td>
+        <td>act@example.com</td>
+
+
+-Basic Progress Bar
+A progress bar can be used to show a user how far along he/she is in a process.
+
+Bootstrap provides several types of progress bars.
+-Colored Progress Bars
+.progress-bar-success
+.progress-bar-info
+.progress-bar-warning
+.progress-bar-danger
+
+Striped Progress Bars
+Progress bars can also be striped:
+Add class .progress-bar-striped to add stripes to the progress bars
+
+Animated Progress Bar:
+Add class .active to animate the progress bar.
+
+Stacked Progress Bars
+
+
+-Pager
+<ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+
+
+  -Basic Pagination
+If you have a web site with lots of pages, you may wish to add some sort of pagination to each page.
+<ul class="pagination">
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+</ul>
+
+- ACtive state in pagination 
+Add class .active to let the user know which page he/she is on:	

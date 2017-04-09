@@ -1,0 +1,11 @@
+- Border : Size type color;
+- Background Image : url("pathOfImage")
+- Display and Visibility:
+Display is generally block,inline, none.
+Block elements sits on top of each other'
+Inline elements only move downward when there is not enough space
+Display of none removes the element
+
+Visibility :
+Hidden elements are not visible , but reserve space.
+

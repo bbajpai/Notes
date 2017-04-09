@@ -1,0 +1,69 @@
+Day 2
+
+Image Tag
+alt : alternate text
+width 
+height
+
+Links : anchor tag
+-Anchor tag act as either source or target for Linking
+- Interlink : Link between pages
+- Intralink	: Link within pages
+
+HTML Link Colors
+By default, a link will appear like this (in all browsers):
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+
+
+HTML Links - Create a Bookmark
+HTML bookmarks are used to allow readers to jump to specific parts of a Web page.
+Bookmarks can be useful if your webpage is very long.
+To make a bookmark, you must first create the bookmark, and then add a link to it.
+When the link is clicked, the page will scroll to the location with the bookmark.
+
+-Tags
+<Strong>
+<em>
+<hr>
+
+
+Lists
+-Unordered List
+-Ordered List
+-Defination List
+
+Nested List
+-"Type" attribute is now deprecated
+- "Start" and "value" deprecated in HTML4 but are valid in transitional doc types for HTML4 and came back with HTML5
+
+
+
+Block VS Inline
+	Block : Container elements for grouping , may contain other block of element 
+	<div> <h1> <p> <form>
+
+	Inline : Container for text .An inline element does not start on a new line and only takes up as much width as necessary.
+	<span> <a> <img>
+
+
+Table Tag
+Caption : table title
+Header  : single row for common header
+<thead>
+</thead>
+Body : Multiple rows presenting data
+foot : single rows for summary <tfoot> </tfoot>
+
+
+<tr> table row: required in header footer and body
+<th> table header : defines a cell for data in header
+<td> table data : defines a cell for data in body and footer
+
+colspan : attributes used on table cells, span across columns and rows
+rowspan :
+
+cellspacing : space b/w cells
+cellpadding : space between text and cell

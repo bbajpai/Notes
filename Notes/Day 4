@@ -1,0 +1,60 @@
+CCS : Cascading Style Sheets
+
+Why CSS :
+Provides the overall look of the web page 
+Allow us to remove presentational infomation from the HTML
+
+CSS Spec :
+CSS1 : 1996  -> Fonts,colors,Alignment, Spacing
+CSS2.1 : 2004 -> Layout, position
+CSS3 : Inprogress -> Effects,sizing
+
+Selectors and Property Value  :
+Selectors is a pattern used to apply styles to element.
+
+Types of selector :
+1)element selector
+body{ 
+		backgroung-color : #00000;
+	}
+
+2)ID selector:
+#menu {
+	backgroung-color : #00000;
+}
+
+3)Class selector
+.abc{
+	backgroung-color : #00000;
+}
+Body is a selector where we want to apply the effect
+PropertyName:value -> assigned property with the defined value
+
+
+Types of CSS :
+Inline  : <h1 style="color:blue;margin-left:30px;">This is a heading</h1>
+
+Internal
+<head>
+<style>
+body {
+    background-color: linen;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+} 
+</style>
+</head>
+
+External 
+
+HTML :<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+An inline style (inside a specific HTML element) has the highest priority, which means that it will override a style defined inside the <head> tag, or in an external style sheet, or a browser default value.
+
+

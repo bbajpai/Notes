@@ -1,0 +1,61 @@
+Jquery :
+Prerequistes -> HTML , CSS, JAVAScript
+
+jQuery is a lightweight, "write less, do more", JavaScript library.
+
+The purpose of jQuery is to make it much easier to use JavaScript on your website.
+
+jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+
+
+Downloading jQuery
+There are two versions of jQuery available for downloading:
+
+Production version - this is for your live website because it has been minified and compressed
+Development version - this is for testing and development (uncompressed and readable code)
+
+JQuery Syntax :
+The syntax is for selecting HTML elements and performing some action on the element(s).
+
+Basic syntax is: $(selector).action()
+
+A $ sign to define/access jQuery
+A (selector) to "query (or find)" HTML elements
+A jQuery action() to be performed on the element(s)
+$(this).hide() - hides the current element.
+
+$("p").hide() - hides all <p> elements.
+
+$(".test").hide() - hides all elements with class="test".
+
+$("#test").hide() - hides the element with id="test".
+
+
+The Document Ready Event
+$(document).ready(function(){
+
+   // jQuery methods go here...
+
+});
+
+this is used to prevent any jQuery code from running before the document is finished loading (is ready).
+
+Jquery Selectors:
+They allow you to select and manipulate HTML element(s).
+jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.
+
+All selectors in jQuery start with the dollar sign and parentheses: $().
+
+-Element Selector : selects elements based on the element name.
+-Id Selector : uses the id attribute of an HTML tag to find the specific element.
+-Class selector : uses the class attribute of an HTML tag to find the specific element.
+
+
+jQuery Syntax For Event Methods
+To assign a click event to all paragraphs on a page, you can do this:
+
+$("p").click();
+or 
+$("p").click(function(){
+  // action goes here!!
+});

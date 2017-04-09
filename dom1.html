@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Hello World!</p>
+
+<div id="main">
+<p>The DOM is very useful.</p>
+<p>Dummy 1</p>
+<p>Dummy </p>
+</div>
+
+<p id="demo"></p>
+<button onclick="window.location.assign('https://www.w3schools.com')">Display Date</button>
+
+<script>
+function displayDate(){
+	document.getElementById("demo").innerHTML = Date();
+}
+
+var par = document.createElement("p");
+var textNode = document.createTextNode("New paregeraph added");
+
+par.appendChild(textNode);
+
+var element = document.getElementById("main");
+element.appendChild(par);
+
+document.getElementById("demo").innerHTML = window.location.href;	
+</script>
+
+</body>
+</html>

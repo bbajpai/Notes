@@ -1,0 +1,53 @@
+What is Bootstrap?
+Bootstrap is a free front-end framework for faster and easier web development
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+Bootstrap also gives you the ability to easily create responsive designs
+
+Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.
+
+
+Why Use Bootstrap?
+Advantages of Bootstrap:
+
+Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+Mobile-first approach: In Bootstrap 3, mobile-first styles are part of the core framework
+Browser compatibility: Bootstrap is compatible with all modern browsers (Chrome, Firefox, Internet Explorer, Safari, and Opera)
+
+
+Where to Get Bootstrap?
+There are two ways to start using Bootstrap on your own web site.
+
+You can:
+
+Download Bootstrap from getbootstrap.com
+Include Bootstrap from a CDN
+
+- Bootstarp Grid system
+
+Bootstrap's grid system allows up to 12 columns across the page.
+
+If you do not want to use all 12 column individually, you can group the columns together to create wider columns.
+
+Grid Classes
+The Bootstrap grid system has four classes:
+
+xs (for phones)
+sm (for tablets)
+md (for desktops)
+lg (for larger desktops)
+The classes above can be combined to create more dynamic and flexible layouts.
+
+
+
+-Types of image:
+Rounded corner - img-rounded
+Circle - img-circle
+Thumbnail - img-thumbnail
+
+Responsive Images
+Images come in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen.
+
+Create responsive images by adding an .img-responsive class to the <img> tag. The image will then scale nicely to the parent element.
+
+

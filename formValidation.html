@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+
+    var num = document.forms["myForm"]["number"].value;
+    if (isNaN(num) || num < 1 || num > 10) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page_post.php"
+onsubmit="return validateForm()" method="post">
+Name: <input type="text" name="fname"> <br><br>
+Number : <input id="number">
+
+
+<input type="submit" value="Submit">
+
+</form>
+<p id="demo"></p>
+</body>
+</html>

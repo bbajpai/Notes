@@ -1,0 +1,73 @@
+- Formatting tables :
+-width/align : align is deprecated
+-Border
+-cell padding : space around content
+-cell spacing : space b/w cells
+-frame :border
+-rules :all,none,cols,rows
+
+
+
+
+-Forms :
+Purpose of HTML forms
+How forms work
+Form action and method
+
+-HTML forms provide one way so that more content created on Web. User can fill out content 
+- Forms allow us to submit data on Web server
+- Allow the user to interact with web content
+- What we do in forms :
+	Display : Markup to display input screen -> Enter : data entered into fields -> Send : name value pair sent to server
+
+
+
+Form Inputs :
+-TextBox
+-email
+-Password
+-TextArea
+-submit
+-select : single/multi select
+-radio buttons : grouped by name 
+-CheckBox : allows to select multipal options
+
+
+
+-Form setting :
+1)Action: URI to which data is send
+2)Method :The HTTP method (GET/POST) to use
+GET:
+Advantages and Disadvantages of Using the GET Method
+-It is possible to bookmark the page with specific query string values.
+-The GET method is not suitable for passing sensitive information such as the username and password, because these are fully visible in the URL query string as well as potentially stored in the client browser's memory as a visited page.
+-As GET method assigns data to a server environment variable, the length of the URL is limited. So, there is a limitation for the total data to be sent.	
+
+The POST Method
+Data sent through POST method will not visible in the URL.
+
+Advantages and Disadvantages of Using the POST Method
+It is more secure than GET because user-entered information is never visible in the URL query string.
+There is a much larger limit on the amount of data that can be passed and one can send text data as well as binary data (uploading a file) using POST.
+Since the data sent by the POST method is not visible in the URL, so it is not possible to bookmark the page with specific query.
+
+
+
+Input Attributes :
+-Size : widthin characters for text/password
+		display length of select
+		width in pixels for all input types
+- Maxlength : Max charactes in text/password
+- Checked : checked state of radio/checkbox
+-Rows/cols : width/height of textarea in characters
+-Multipal/selected : allow multipal selections/indicated initial selections for select
+- Readonly/disabled : non editable 
+
+
+Input Commands :
+- Reset : sets the input to original value
+- Submit : submits the form to server
+
+Organizing HTML forms :
+-Fieldset : Groups form input field
+			Optionally label the group 

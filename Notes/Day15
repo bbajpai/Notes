@@ -1,0 +1,65 @@
+String Method:
+1)String Length
+The length property returns the length of a string.
+2)Finding a String in a String
+The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string.
+3)Extracting String Parts
+
+There are 3 methods for extracting a part of a string:
+slice(start, end)
+substring(start, end)
+substr(start, length)
+
+a)The slice() Method / substring()
+slice() extracts a part of a string and returns the extracted part in a new string.
+
+The method takes 2 parameters: the starting index (position), and the ending index (position).
+
+
+4)Converting to Upper and Lower Case
+var text2 = text1.toUpperCase();
+var text2 = text1.toLowerCase();
+
+
+5)CharAt(index) : used to get char at the particulat index
+
+
+
+JavaScript Math Object
+
+1)Math.round()
+Math.round(x) returns the value of x rounded to its nearest integer
+Math.round(4.7);    // 5
+Math.round(4.4);    // 4
+
+2)Math.pow()
+Math.pow(x, y) returns the value of x to the power of y.
+Math.pow(8, 2);      // 64
+
+3)Math.ceil()
+Math.ceil(x) returns the value of x rounded up to its nearest integer:
+Math.ceil(4.4);     // 5
+
+4)Math.floor()
+Math.floor(x) returns the value of x rounded down to its nearest integer.
+Math.floor(4.7);
+
+
+Array :
+JavaScript arrays are used to store multiple values in a single variable.
+var array_name = [item1, item2, ...]; 
+
+- Access the Elements of an Array
+You refer to an array element by referring to the index number.
+var name = cars[0];
+
+- Javascript array's are heterogeneous.
+
+-Array Properties and methods
+-Looping Array element
+-Adding Array element  : arrayName.push();
+-Removing Array element : arrayName.pop();
+
+
+var arr = new Array(40, 100, 1, 5, 25, 10); // Bad
+var arr1 = [40, 100, 1, 5, 25, 10];          // Good

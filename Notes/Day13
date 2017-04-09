@@ -1,0 +1,116 @@
+prerequisite for Javascript  > HTML and CSS
+
+What is javascript?
+Why important?
+History
+
+
+JavaScript is a lightweight, interpreted programming language.
+
+Designed for creating network-centric applications.
+
+Complementary to and integrated with Java.
+
+Complementary to and integrated with HTML.
+
+Open and cross-platform
+
+
+Limitations of JavaScript
+We cannot treat JavaScript as a full-fledged programming language. It lacks the following important features −
+
+Client-side JavaScript does not allow the reading or writing of files. This has been kept for security reason.
+
+JavaScript cannot be used for networking applications because there is no such support available.
+
+JavaScript doesn't have any multithreading or multiprocessor capabilities.
+
+Write in Output : console.log();
+
+1)Javascript Datatype:
+
+Numbers, eg. 123, 120.50 etc.
+
+Strings of text e.g. "This text string" etc.
+
+Boolean e.g. true or false.
+
+JavaScript also defines two trivial data types, null and undefined, each of which defines only a single value. In addition to these primitive data types, JavaScript supports a composite data type known as object.
+JavaScript also defines two trivial data types, null and undefined, each of which defines only a single value. In addition to these primitive data types, JavaScript supports a composite data type known as object.
+
+2)JavaScript Variable Scope
+The scope of a variable is the region of your program in which it is defined. JavaScript variables have only two scopes.
+
+Global Variables − A global variable has global scope which means it can be defined anywhere in your JavaScript code.
+
+Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.
+
+3) JavaScript supports the following types of operators.
+
+Arithmetic Operators +,-,/,*,%,++,--
+
+Comparision Operators ==, !=, >(Greater Than),<(Less Than), >=, <= 
+
+Logical (or Relational) Operators &&, ||
+
+Assignment Operators = , +=, -=, *=, /=
++= : C += A => C = C+A
+-= : C -= A => C = C-A
+
+Conditional (or ternary) Operators : ? : (Conditional )
+
+If Condition is true? Then value X : Otherwise value Y
+document.write ("((a < b) ? 100 : 200) => ");
+
+
+typeof Operator
+The typeof operator is a unary operator that is placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand
+
+
+
+if(condition){
+	if condition true
+}
+else if(condition){
+	something/////
+}
+else{
+	no condition
+}
+
+if((a%2) == 0){
+	no even
+}
+else{
+	odd
+}
+
+
+loops:
+1)for loop
+2)while loop
+3)do while
+4)for each
+
+while(condition){
+	kjdfhskdhhks
+}
+
+
+do{
+	jfhjghkjhkjhgk
+}(condition)
+
+for(initialization; condition, increment/decrement){
+	  a = 0				a <10     a++/a--
+
+	  sum +=a;
+
+}
+values ={10,20,30,40,50};
+
+
+
+foreach(var x in values){
+	sum +=x;
+}

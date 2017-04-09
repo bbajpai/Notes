@@ -1,0 +1,79 @@
+HTML 
+CSS 
+Bootstrap 
+JavaScript 
+JQuery 
+Ajax 
+
+
+HTML History
+
+Internet ->WWW(Tim bernar lee) 
+
+
+WWW
+	HTML : Used to create documents on WWW which defines structure and layout
+	URI/URL : Address of Html document  
+	HTTP : For distribution/exchange of documents on top of IP protocol
+
+
+HTML
+Hypertext is structured text that uses logical links (hyperlinks) between nodes containing text.
+Markup Language  : meant to be processed by client application(browser)
+
+
+HTML Structure
+- Doctype - DTD declarations
+- HTML - root element
+- HEAD - Document Metadata : used by browser and search engines optimisation
+- BODY - Document Data : Displayed to user by browser
+
+
+
+
+
+
+
+•	An HTML element starts with a start tag / opening tag
+•	An HTML element ends with an end tag / closing tag
+•	The element content is everything between the start and the end tag
+•	Some HTML elements have empty content
+•	Empty elements are closed in the start tag
+•	Most HTML elements can have attributes
+
+
+
+
+
+
+HEAD
+TITLE : 
+METADATE :metadata such as keyword 
+SCRIPT : include scripts for interactive pages
+STYLE : style to apply to body elements 
+LINK : Indicate related documents
+
+
+
+
+
+Meta Tag
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="John Doe">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+BODY
+Headings
+Text
+Lists
+Links
+Tables
+Images
+
+
+

@@ -1,0 +1,24 @@
+Button Class:
+
+.btn	Adds basic styling to any button	
+.btn-default	Indicates a default/standard button	
+.btn-primary	Provides extra visual weight and identifies the primary action in a set of buttons	
+.btn-success	Indicates a successful or positive action	
+.btn-info	Contextual button for informational alert messages	
+.btn-warning	Indicates caution should be taken with this action	
+.btn-danger	Indicates a dangerous or potentially negative action	
+.btn-link	Makes a button look like a link (will still have button behavior)	
+.btn-lg	Makes a large button	
+.btn-sm	Makes a small button	
+.btn-xs	Makes an extra small button	
+.btn-block	Makes a block-level button (spans the full width of the parent element)	
+.active	Makes the button appear pressed	
+.disabled	Makes the button disabled	
+.navbar-btn	Vertically aligns a button inside a navbar
+
+
+Panel : Bordered box with some padding
+-The .panel-default class is used to style the color of the panel. 
+
+Panels with Contextual Classes
+To color the panel, use contextual classes (.panel-default, .panel-primary, .panel-success, .panel-info, .panel-warning, or .panel-danger):

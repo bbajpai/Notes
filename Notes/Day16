@@ -1,0 +1,65 @@
+DOM : Document Object Model
+Using DOM, JavaScript can access and change all the elements of an HTML document.
+When a web page is loaded, the browser creates a Document Object Model of the page.
+
+What all we can do with DOM:
+JavaScript can change all the HTML elements in the page
+JavaScript can change all the HTML attributes in the page
+JavaScript can change all the CSS styles in the page
+JavaScript can remove existing HTML elements and attributes
+JavaScript can add new HTML elements and attributes
+JavaScript can react to all existing HTML events in the page
+JavaScript can create new HTML events in the page
+
+The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+
+The getElementById Method
+The most common way to access an HTML element is to use the id of the element.
+
+
+The innerHTML Property
+The easiest way to get the content of an element is by using the innerHTML property.
+The innerHTML property is useful for getting or replacing the content of HTML elements.
+
+
+1)Document DOM :
+This object represents web page
+Methods:
+ document.getElementById(id) :	Find an element by element id
+document.getElementsByTagName(name): 	Find elements by tag name
+document.getElementsByClassName(name) :	Find elements by class name
+
+document.getElementByTagName(p)
+
+2)Changing HTML Elements
+Method	Description
+element.innerHTML =  new html content	 : Change the inner HTML of an element
+element.attribute = new value	: Change the attribute value of an HTML element
+
+element.setAttribute(attribute, value) : 	Change the attribute value of an HTML element
+element.style.property = new style	: Change the style of an HTML element
+
+
+Finding HTML Elements by HTML Object Collections
+This example finds the form element with id="frm1", in the forms collection, and displays all element values
+
+3)DOM CSS :
+document.getElementById(id).style.property = new style
+
+document.getElementById("p2").style.color = "blue";
+
+4)DOM event : 
+HTML events in JS:
+When a user clicks the mouse
+When a web page has loaded
+When an image has been loaded
+When the mouse moves over an element
+When an input field is changed
+When an HTML form is submitted
+When a user strokes a key
+
+
+i. OnChange Event :
+
+

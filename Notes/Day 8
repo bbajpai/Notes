@@ -1,0 +1,45 @@
+Supporting Different browser:
+background: -webkit-propertyName(value); /* For Safari */
+background: -o-propertyName(value); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-propertyName(value); /* For Firefox 3.6 to 15 */
+background: propertyName(value); /* Standard syntax (must be last) */
+
+
+
+
+LINEAR-GRADIENT
+To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect
+Syntax:
+background: linear-gradient(direction, color-stop1, color-stop2, ...);
+
+
+TEXT-SHADOW
+In CSS3, the text-shadow property applies shadow to text..
+Syntax:
+h1
+{
+text-shadow: 5px 5px 5px #FF0000;
+}
+
+
+TRANSFORM-SCALE
+With the scale() method, the element increases or decreases the size, depending on the parameters given for the width (X-axis) and the height (Y-axis):
+Syntax:
+div
+{
+transform: scale(2,4);
+-ms-transform: scale(2,4); /* IE 9 */
+-webkit-transform: scale(2,4); /* Safari and Chrome */
+}
+
+
+
+TRANSFORM-SKEW
+With the skew() method, the element turns in a given angle, depending on the parameters given for the horizontal (X-axis) and the vertical (Y-axis) lines:
+Syntax:
+div
+{
+transform: skew(30deg,20deg);
+-ms-transform: skew(30deg,20deg); /* IE 9 */
+-webkit-transform: skew(30deg,20deg); /* Safari and Chrome */
+}

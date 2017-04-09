@@ -1,0 +1,35 @@
+CSS and BOX Model
+-Div tag
+-Border
+-Margin  :	The CSS margin properties are used to generate space around elements.There are CSS properties for setting the margin for each side of an element (top, right, bottom, and left).
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+*set the margin property to auto to horizontally center the element within its container.
+
+
+-Padding : The CSS padding properties are used to generate space around content.
+CSS has properties for specifying the padding for each side of an element:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+-How to give style to specific tag?
+-descendant selector :
+div p{
+	background-color :blue;
+}
+
+- child selector :
+div > p{
+	background-color :blue;
+}
+
+psuedo class :
+selectors that specifies a special state of the element to be selected. For example :hover will apply a style when the user hovers 
+a:visited 
+{color : red;}

@@ -1,0 +1,45 @@
+DOM events : 
+HTML events in JS:
+When a user clicks the mouse
+When a web page has loaded
+When an image has been loaded
+When the mouse moves over an element
+When an input field is changed
+When an HTML form is submitted
+When a user strokes a key
+
+
+i. OnChange Event : Occure when their is a change in the focus of element
+
+ii. The onmouseover and onmouseout Events OnMouseMove etc.
+
+
+- Dynamically adding elements in HTML :
+new element to the HTML DOM, you must create the element (element node) first, and then append it to an existing element.
+
+-Dynamically remove elements in HTML : 
+
+
+
+
+JS BOM : Browser Object Model
+The Browser Object Model (BOM) allows JavaScript to "talk to" the browser.
+
+1)Window Object : 
+-window size : height,width	
+-window.open : open new window
+
+2)Location Object :
+The window.location object can be used to get the current page address (URL) and to redirect the browser to a new page.
+i)The window.location.href property returns the URL of the current page
+ii)The window.location.hostname property returns the name of the internet host (of the current page).
+iii)The window.location.assign() method loads a new document.
+e.g :  window.location.assign("https://www.w3schools.com")
+
+
+3)History Object :
+history.back() - same as clicking back in the browser : window.history.back()
+history.forward() - same as clicking forward in the browser : window.history.forward()
+
+
+
